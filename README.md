@@ -1,7 +1,7 @@
 # 📧 get-mail-tm
 
-[![PyPI version](https://img.shields.io/pypi/v/get-mail.svg)](https://pypi.org/project/get-mail/)
-[![Python versions](https://img.shields.io/pypi/pyversions/get-mail.svg)](https://pypi.org/project/get-mail/)
+[![PyPI version](https://img.shields.io/pypi/v/get-mail.svg)](https://pypi.org/project/get-mail-tm/)
+[![Python versions](https://img.shields.io/pypi/pyversions/get-mail.svg)](https://pypi.org/project/get-mail-tm/)
 [![GitHub stars](https://img.shields.io/github/stars/RyotaXD/get-mail-tm.svg?style=social)](https://github.com/RyotaXD/get-mail-tm/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/RyotaXD/get-mail-tm.svg?style=social)](https://github.com/RyotaXD/get-mail-tm/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
