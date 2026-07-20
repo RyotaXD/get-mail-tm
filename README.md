@@ -31,27 +31,15 @@ This package is designed to be easily integrated into your automation scripts, b
 ## Usage
 ```python
 from get_mail import MailTM
-
-mail = MailTM()
-account = mail.create_account()
-print(f"Alamat   : {account['address']}")
-print(f"Password : {account['password']}")
-print(f"Token    : {account['token']}")```
-
-
-## Detail nya
-```python
-from get_mail import MailTM
 import time
 
 def main():
 	mail = MailTM()
 	account = mail.create_account()
 	
-	print(f"[*] Email dibuat: {account['address']}")
-	print(f"[*] Password: {account['password']}")
+	print(f"[*] Email : {account['address']}")
+	print(f"[*] Password : {account['password']}")
 	print("[*] Menunggu email masuk...\n")
-	
 	try:
 		while True:
 			inbox = mail.get_messages()
@@ -59,18 +47,13 @@ def main():
 				for msg in inbox:
 					print(f"[+] Email Baru Dari: {msg['from']['address']}")
 					print(f"[+] Subjek: {msg['subject']}")
-					
-					# Ambil isi lengkap pesan
 					content = mail.get_message_content(msg['id'])
 					if content:
 						print(f"[+] Isi:\n{content['text']}\n")
-				break # Hentikan perulangan setelah menerima email
-			
+				break
 			time.sleep(5)
-			
 	except KeyboardInterrupt:
 		print("\n[-] Dihentikan oleh user.")
 
 if __name__ == "__main__":
-	main()
-```
+	main()```
