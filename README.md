@@ -25,8 +25,7 @@ This package is designed to be easily integrated into your automation scripts, b
 - Privacy Protection & Testing
 
 ## 📦 Installation
-```bash
-pip install get-mail
+`pip install get-mail`
 
 
 ## Usage
@@ -37,7 +36,7 @@ mail = MailTM()
 account = mail.create_account()
 print(f"Alamat   : {account['address']}")
 print(f"Password : {account['password']}")
-print(f"Token    : {account['token']}")
+print(f"Token    : {account['token']}")```
 
 
 ## Detail nya
@@ -74,4 +73,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
+```
