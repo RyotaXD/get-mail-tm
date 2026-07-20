@@ -31,6 +31,8 @@ Install the package directly from PyPI:
 ```bash
 pip install get-mail
 
+
+
 ## Usage
 ```python
 from get_mail import MailTM
@@ -41,6 +43,8 @@ account = mail.create_account()
 print(f"Alamat   : {account['address']}")
 print(f"Password : {account['password']}")
 print(f"Token    : {account['token']}")
+
+
 
 ## Detail nya
 ``python
