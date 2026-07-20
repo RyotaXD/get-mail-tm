@@ -25,19 +25,21 @@ This package is designed to be easily integrated into your automation scripts, b
 - Privacy Protection & Testing
 
 ## 📦 Installation
+```bash
 pip install get-mail
 
 ## Usage
+```python
 from get_mail import MailTM
 
 mail = MailTM()
 account = mail.create_account()
-
 print(f"Alamat   : {account['address']}")
 print(f"Password : {account['password']}")
 print(f"Token    : {account['token']}")
 
 ## Detail nya
+```python
 from get_mail import MailTM
 import time
 
